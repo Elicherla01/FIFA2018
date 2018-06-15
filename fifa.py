@@ -19,3 +19,5 @@ for i in range (len(results['home_team'])):
     elif (results['home_score'][i] < results ['away_score'] [i]):
         winner.append(results ['away_team'][i])
         
+results['winning_team'] = winner
+        
